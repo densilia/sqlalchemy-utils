@@ -77,7 +77,7 @@ setup(
     platforms='any',
     install_requires=[
         'six',
-        'SQLAlchemy>=1.0'
+        'git+https://github.com/densilia/sqlalchemy.git>=1.0'
     ],
     extras_require=extras_require,
     python_requires='~=3.4',
